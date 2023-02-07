@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap&subset=latin-ext');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+#container{
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    width:"960";
+    height: 110px;
+}
+
+#logo{
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 9px;
+}
+
+#menü{
+    width: 840px;
+    height: 110px;
+    background-color: white;
+    float: right;
+    text-align: center;
+    vertical-align: top;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#menü li{
+    display: inline-block;
+}
+
+#menü a{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding: 0px 40px;
+    height: 110px;
+    display: inline-block;
+    line-height: 110px;
+}
+
+#menü a:hover{
+    background-color: black;
+    color: white;
+    transition: .5s ease;
+}
+
+
+
+#banner{
+    width: 960px;
+    height: 440px;
+    background-color: black;
+    margin-top: 10px;
+    position: relative;
+}
+
+#bannerLeft{
+    position: absolute;
+    width: 390px;
+    height: 270px;
+    top: 40px;
+    left: 64px;
+}
+
+
+#bannerRight{
+    width: 460px;
+    height: 420px;
+    position: absolute;
+    right: 35px;
+    bottom: 0px;
+}
+
+#bannerLeft h2{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#bannerRight img{
+    transform: scale(1);
+    transition: all .4s;
+    position: relative;
+    left: 0px;
+}
+
+#bannerRight img:hover{
+    transform: scale(1.1);
+    left: -80px;
+}
+
+#homeboxes{
+    width: 960px;
+    height: 490px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.box{
+    width: 280px;
+    height: 370px;
+    text-align: center;
+    padding: 50px 0px;
+    display: inline-block;
+    margin: 0px 5px;
+    vertical-align: top;
+}
+
+
+
+
+.circleİmg{
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .3s;
+    opacity: 1;
+}
+
+.circleİmg:hover{
+    opacity: 0.9;
+
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-top: 15px;
+
+}
+
+p{
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
